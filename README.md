@@ -65,7 +65,6 @@ itog['CampaignName'] = itog['CampaignName'].replace(to_replace='_10', value='', 
 
 print('очистка актуализируемых данных')
 fix = pd.read_csv('cashe_new.csv', sep=';', encoding='cp1251', header=0)
-# fix = fix[fix.Date.str.contains(r'2019|2020', case=False)==False]
 fix = fix[fix.Date.str.contains(lastday) == False]
 fix = fix[fix.Date.str.contains(lastdaya) == False]
 fix = fix[fix.Date.str.contains(lastdayb) == False]
