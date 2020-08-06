@@ -18,6 +18,7 @@
 подробнее о допустимых полях и типах отчетов можно прочитать [в справке](https://yandex.ru/dev/direct/doc/reports/fields-list-docpage/)
 
 Определение логинов и токена для отчета:
+https://oauth.yandex.ru/authorize?response_type=token&client_id=
 ```python
 
 # токены
